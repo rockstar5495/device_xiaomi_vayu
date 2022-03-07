@@ -16,6 +16,7 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Octavi
 OCTAVI_BUILD_TYPE := UNOFFICIAL
+TARGET_GAPPS_ARCH := arm64
 
 # Device Identifer (must come after all inclusions)
 PRODUCT_NAME := octavi_vayu
